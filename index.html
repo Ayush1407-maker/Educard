@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduford</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="logo.png" alt="Eduford Logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">COURSES</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="Text-box">
+        <h1>World's Biggest University</h1>
+        <p>
+          Now, a NAAC A+ university comes to you. And you can get a UGC- <br />
+          entitled online degree from anywhere, anytime.
+        </p>
+        <a href="" class="hero-btn">Visit Us</a>
+      </div>
+    </section>
+
+    <!-- Course Section -->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+        minima!
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            vero...
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            vero...
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post-Graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            vero...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campus Section -->
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="london.png" alt="" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="newyork.png" alt="" />
+          <div class="layer">
+            <h3>NEW YORK</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="washington.png" alt="" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
+        sapiente?
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="library.png" alt="" />
+          <h3>World's Biggest Library</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
+        <div class="facilities-col">
+          <img src="basketball.png" alt="" />
+          <h3>Biggest Ground</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
+        <div class="facilities-col">
+          <img src="cafeteria.png" alt="" />
+          <h3>Best Cafeteria</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial-section -->
+
+    <section class="Testimonial">
+      <h1>What our student's say?</h1>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quasi!
+      </p>
+      <div class="rows">
+        <div class="Testimonial-col">
+          <img src="user1.jpg" alt="" />
+          <div class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, et?
+            Praesentium rem placeat vitae,
+          </div>
+          <h4>David</h4>
+        </div>
+
+        <div class="Testimonial-col">
+          <img src="user2.jpg" alt="" />
+          <div class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, et?
+            Praesentium rem placeat vitae,
+          </div>
+          <h4>Christine Berkly</h4>
+        </div>
+
+        <div class="Testimonial-col">
+          <img src="user2.jpg" alt="" />
+          <div class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, et?
+            Praesentium rem placeat vitae, natu
+          </div>
+          <h4>David</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer class="college-footer">
+      <div class="footer-container">
+        <!-- college information -->
+        <div class="footer-box">
+          <h2>Eduford Global Studies</h2>
+          <p>
+            Empowering Students With a Good Knowledge and make them a valuable
+            Asset
+          </p>
+        </div>
+
+        <!-- Important Links -->
+        <div class="footer-box">
+          <h3>Quick links</h3>
+          <ul>
+            <li>Latest News</li>
+            <li>View Result</li>
+            <li>Carrers</li>
+            <li>Login</li>
+            <li>Latest News</li>
+            <li>Latest News</li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <h2>Contact Details</h2>
+          <p>Email: eduford@gmail.com</p>
+          <p>Phone: +91 9876543210</p>
+          <p>Location: Delhi, India</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
